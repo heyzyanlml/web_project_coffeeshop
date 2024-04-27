@@ -5,6 +5,7 @@
   box-sizing: border-box; /* Cambia el modelo de caja por defecto: el ancho y alto de los elementos incluirán el padding y border */
 }
 
+/* Aplica estilos de la página */
 .page {
   min-width: 1100px; /* Ancho mínimo */
   max-width: 1600px; /* Ancho máximo */
@@ -16,6 +17,7 @@
   color: #000000; /*Color de fuente preterminada para la página*/
 }
 
+/* Aplica estilos del header */
 .header {
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
@@ -30,6 +32,7 @@
   flex-direction: column;
 }
 
+/* Aplica estilos del menú de navegación */
 .nav {
   padding-top: 30px;
   display: flex;
@@ -124,6 +127,7 @@
   align-self: end; /* Alinea el texto al final horizontalmente */
 }
 
+/* Aplica estilos de la sección 'Recipes' */
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
@@ -187,4 +191,132 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between; /* Distribuye las partes del caption uniformemente */
+}
+
+/* Aplica estilos de la sección 'Reservation' */
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  max-width: 385px;
+}
+.reservation__form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  height: 60px;
+}
+
+/*Dar estilos a los placeholders */
+
+/* para Safari y Chrome */
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+/* para Firefox */
+input::-moz-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+/* para IE */
+input::-ms-input-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+.form__input::placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+input[type="datetime-local"]::placeholder {
+  text-align: center;
+}
+
+/*Dar estilos al botón */
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  opacity: 100%;
+  display: block;
+  background-color: #2f80ed;
+  max-width: 385px;
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+  border: none;
+}
+
+.form__button:hover {
+  border-radius: 4px;
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
+
+.form__label_position_center {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
 }
