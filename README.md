@@ -67,3 +67,8 @@ En esta parte, detallaré cada una de las secciones del sitio, así como lo que 
 3. **Creación de la lista de redes sociales:** Seguí prácticando el uso de listas no ordenadas (`<ul>`) y elementos `<li>`. Así como el uso de `Flexbox` para lograr el acomodo que se pedía. En los links de las redes sociales también agregamos un efecto `:hover` al pasar el cursor por encima.
 
 4. **Creación de un elemento copyright:** Para agregar el nombre del autor.
+
+
+### Autor
+
+✨Hecho por Zyan Chávez.✨
