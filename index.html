@@ -14,9 +14,8 @@
       content="Café de especialidad, Cafetería Triple Peaks, Café creativo, Recetas de café, Aeropress, Cafetera francesa, Reserva de mesa en línea, Inspiración para estudio, Espacio de coworking con café, Café artesanal"
     />
     <title>Cafeteria "Triple Espresso"</title>
+
     <!-- Vínculos a recursos externos -->
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <!-- Normaliza los estilos por defecto del navegador -->
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,6 +25,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- Estructura principal de la página -->
     <div class="page">
@@ -37,6 +37,7 @@
             src="./images/logo_coffeeshop_dark.svg"
             alt="Logo en negro de la cafetería"
           />
+
           <!-- Lista de links de la barra de navegación-->
           <ul class="nav__links">
             <li>
@@ -50,7 +51,8 @@
             </li>
           </ul>
         </nav>
-        <!-- Título principal y header -->
+
+        <!-- Título principal y descripción del header -->
         <h1 class="header__title">
           <span class="header__span-accent">Café de especialidad</span> en
           Triple Peaks
@@ -64,6 +66,8 @@
           src="./images/inside_coffee_shop.png"
           alt="Imagen del interior de la cafetería Triple Espresso"
         />
+
+        <!-- Información adicional del header como horarios y dirección -->
         <div class="header__footer">
           <div class="header__schedule">
             <p class="header__paragraph">Horario:</p>
@@ -79,7 +83,8 @@
           </p>
         </div>
       </header>
-      <!-- Contenido principal -->
+
+      <!-- Contenido principal de la página -->
       <main class="content">
         <!-- Sección de recetas -->
         <section class="recipes" id="recipes">
@@ -88,6 +93,7 @@
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
           </p>
+
           <!-- Vídeos de recetas -->
           <div class="recipes__videos">
             <div class="recipes__video-item">
@@ -103,6 +109,7 @@
                 Receta en Aeropress <span>~5 min</span>
               </p>
             </div>
+
             <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
@@ -118,8 +125,11 @@
             </div>
           </div>
         </section>
+
+        <!-- Sección para reservar una mesa -->
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
+
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label" for="nombre">Nombre *</label>
@@ -182,7 +192,47 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+
+      <!-- Inicio Footer de página -->
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            alt="Logo de Triple Espresso"
+            src="./images/logo_coffeeshop_light.svg"
+          />
+          <div class="footer__circle"></div>
+
+          <!-- Enlaces redes sociales -->
+          <div class="footer_social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="./images/facebook_white.svg"
+                    class="footer__social-icon"
+                    alt="Logo de Facebook"
+                  />
+                  Facebook</a
+                >
+              </li>
+
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="./images/instagram_white.svg"
+                    class="footer__social-icon"
+                    alt="Logo de Instagram"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Zyan Chávez</p>
+      </footer>
     </div>
   </body>
 </html>

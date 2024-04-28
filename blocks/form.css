@@ -1,0 +1,99 @@
+.form {
+  max-width: 385px;
+}
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_position_center {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  height: 60px;
+}
+
+/*Dar estilos a los placeholders */
+
+/* para Safari y Chrome */
+.form__input::-webkit-input-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+/* para Firefox */
+.form__input::-moz-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+/* para IE */
+.form__input::-ms-input-placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+.form__input::placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #838383;
+}
+
+/*Dar estilos al botón */
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  opacity: 100%;
+  display: block;
+  background-color: #2f80ed;
+  max-width: 385px;
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+  border: none;
+}
+
+.form__button:hover {
+  border-radius: 4px;
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
