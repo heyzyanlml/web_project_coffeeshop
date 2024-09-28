@@ -1,5 +1,7 @@
 # Triple Espresso
 
+🚀 ¡Dale un vistazo al proyecto! https://heyzyanlml.github.io/web_project_coffeeshop/
+
 ## Descripción del proyecto y su funcionalidad.
 
 Este es el proyecto final del Sprint 4 del Curso de Web Development de Tripleten. El objetivo de este proyecto que se realizó en cuatro etapas fue construir una página principal en la cuál:
@@ -69,6 +71,3 @@ En esta parte, detallaré cada una de las secciones del sitio, así como lo que 
 4. **Creación de un elemento copyright:** Para agregar el nombre del autor.
 
 
-### Autor
-
-✨Hecho por Zyan Chávez.✨
